@@ -39,5 +39,3 @@ function App() {
 }
 
 export default App;
-
-//img,status,rating,amount,location,description,pricing
