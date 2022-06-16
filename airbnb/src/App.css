@@ -5,6 +5,8 @@ p{
   display:flex;
   flex-direction:row;
   background-color:white;
+  font-size:12px;
+  line-height:12px;
 }
 
 .CardHolder{
@@ -16,7 +18,7 @@ p{
   width:176px;
   height:235px;
   background-repeat:no-repeat;
-  background-image:url(./images/1.png);
+  background:url(./images/1.png);
   background-size:176px;
 }
 
@@ -48,31 +50,18 @@ margin-top:9px;
   height:12px;
 }
 
-.Rating{
-  font-size:12px;
-  line-height:12px;
-}
-
 .RaterAmount{
   color:#918E9B;
-  font-size:12px;
-  line-height:12px;
 }
 
 .Location{
   color:#918E9B;
-  font-size:12px;
-  line-height:12px;
 }
 
 .Description{
   margin-top:8px;
-  font-size:12px;
-  line-height:12px;
 }
 
 .Pricing{
   margin-top:8px;
-  font-size:12px;
-  line-height:12px;
 }
