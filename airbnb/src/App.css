@@ -1,0 +1,78 @@
+p{
+  margin:0px;
+}
+.App {
+  display:flex;
+  flex-direction:row;
+  background-color:white;
+}
+
+.CardHolder{
+  margin-top:30px;
+  margin-left:30px;
+}
+
+.Card{
+  width:176px;
+  height:235px;
+  background-repeat:no-repeat;
+  background-image:url(./images/1.png);
+  background-size:176px;
+}
+
+.Status{
+  position:relative;
+  top: 6px;
+  left: 6px;
+  width:61px;
+  height:21px;
+  border-radius:2px;
+  text-align:center;
+  line-height:21px;
+  background-color:white;
+  font-weight:500;
+  font-size:10px;
+}
+
+.CardInfo{
+margin-top:9px;
+}
+
+.RatingDiv{
+  display:flex;
+  flex-direction:row;
+}
+
+.star{
+  width:12px;
+  height:12px;
+}
+
+.Rating{
+  font-size:12px;
+  line-height:12px;
+}
+
+.RaterAmount{
+  color:#918E9B;
+  font-size:12px;
+  line-height:12px;
+}
+
+.Location{
+  color:#918E9B;
+  font-size:12px;
+  line-height:12px;
+}
+
+.Description{
+  margin-top:8px;
+  font-size:12px;
+  line-height:12px;
+}
+
+.Pricing{
+  margin-top:8px;
+  font-size:12px;
+  line-height:12px;
+}
